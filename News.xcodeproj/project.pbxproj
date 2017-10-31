@@ -12,6 +12,7 @@
 		2E69720C1FA8E8FC003618F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E69720A1FA8E8FC003618F7 /* Main.storyboard */; };
 		2E69720E1FA8E8FC003618F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E69720D1FA8E8FC003618F7 /* Assets.xcassets */; };
 		2E6972111FA8E8FC003618F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E69720F1FA8E8FC003618F7 /* LaunchScreen.storyboard */; };
+		2E6972191FA8E913003618F7 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6972181FA8E913003618F7 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2E69720D1FA8E8FC003618F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E6972101FA8E8FC003618F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E6972121FA8E8FC003618F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6972181FA8E913003618F7 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		2E6972051FA8E8FC003618F7 /* News */ = {
 			isa = PBXGroup;
 			children = (
+				2E6972181FA8E913003618F7 /* Article.swift */,
 				2E6972061FA8E8FC003618F7 /* AppDelegate.swift */,
 				2E6972081FA8E8FC003618F7 /* ViewController.swift */,
 				2E69720A1FA8E8FC003618F7 /* Main.storyboard */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					2E6972021FA8E8FC003618F7 = {
 						CreatedOnToolsVersion = 9.0.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -138,6 +141,7 @@
 			files = (
 				2E6972091FA8E8FC003618F7 /* ViewController.swift in Sources */,
 				2E6972071FA8E8FC003618F7 /* AppDelegate.swift in Sources */,
+				2E6972191FA8E913003618F7 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +278,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = News/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.iosgatech.News;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +294,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = News/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.iosgatech.News;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
