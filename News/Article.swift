@@ -74,7 +74,7 @@ struct Article {
             bodyText: """
                 Thousands of comets and asteroids have been observed by researchers for centuries, all of them originating from our solar system. It's a different story for the new object temporarily dubbed the A/2017 U1. Scientists say the extreme, almost perpendicular orbit of the object indicates it is not tied to the sun and likely originated from outside our galaxy.
 
-            Instead of originating from our solar system, the piece of rock that is about a quarter of a mile in diameter appears to have escaped from another star. One of the more striking characteristics of the object is the speed at which it is traveling: roughly 97,200 mph. Telescopes the world over are now being turned toward the object to collect as much data as possible before it leaves our solar system, because once it goes, it's gone for good, astronomers say.
+                Instead of originating from our solar system, the piece of rock that is about a quarter of a mile in diameter appears to have escaped from another star. One of the more striking characteristics of the object is the speed at which it is traveling: roughly 97,200 mph. Telescopes the world over are now being turned toward the object to collect as much data as possible before it leaves our solar system, because once it goes, it's gone for good, astronomers say.
             """),
         
         Article(
@@ -84,9 +84,9 @@ struct Article {
             bodyText: """
                 On this very month five years ago, the Atlanta Beltline Eastside Trail held its official dedication, unveiling 2.25 miles of freshly paved trail that would be a harbinger for unprecedented change throughout the city.
 
-            But soon after that, the bridge at Edgewood Avenue was discovered to be insufficient and degraded, and a funding spat between the Beltline (and City of Atlanta) and the public school system became high-profile news. So, for years, the only thing that extended was estimated construction timelines.
+                But soon after that, the bridge at Edgewood Avenue was discovered to be insufficient and degraded, and a funding spat between the Beltline (and City of Atlanta) and the public school system became high-profile news. So, for years, the only thing that extended was estimated construction timelines.
 
-            That all officially becomes history at 10 a.m. Friday, when Beltline officials and city dignitaries including Mayor Kasim Reed are expected to gather near Kirkwood Avenue in Reynoldstown for a ribbon-cutting. The ceremony, dubbed “Marking a Mile,” will celebrate the completion of the Eastside Trail’s first southern-extension phase, which snakes for a mile from Irwin Street to its temporary terminus at Kirkwood Avenue.
+                That all officially becomes history at 10 a.m. Friday, when Beltline officials and city dignitaries including Mayor Kasim Reed are expected to gather near Kirkwood Avenue in Reynoldstown for a ribbon-cutting. The ceremony, dubbed “Marking a Mile,” will celebrate the completion of the Eastside Trail’s first southern-extension phase, which snakes for a mile from Irwin Street to its temporary terminus at Kirkwood Avenue.
             """),
         
         Article(
