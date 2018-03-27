@@ -1,8 +1,8 @@
 ## News App (Fall 2017)
 
-This is a completed version of the [News app Spec Challenge](https://github.com/iosgatech/News-Spec-Template-Fall17) from Fall 2017.
+This is a completed version of the [News app Spec Challenge](https://github.com/iosgatech/News-Spec-Template) used Fall 2017 and Spring 2018.
 
-To implement it yourself, start from the [template](https://github.com/iosgatech/News-Spec-Template-Fall17).
+To implement it yourself, start from the [template](https://github.com/iosgatech/News-Spec-Template).
 
 ### Screenshots
 
