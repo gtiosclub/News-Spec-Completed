@@ -13,7 +13,7 @@ class ArticleViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var bodyLabel: UILabel!
+    @IBOutlet weak var bodyTextView: UITextView!
     
     var article: Article?
     
@@ -35,7 +35,12 @@ class ArticleViewController: UIViewController {
         titleLabel.text = article.headline
         dateLabel.text = article.dateText
         imageView.image = article.image
-        bodyLabel.text = article.bodyText
+        bodyTextView.text = article.bodyText
+        
+        // iOS 7 and onwards, fix for text at top being cut off
+        // https://stackoverflow.com/questions/18696706/large-text-being-cut-off-in-uitextview-that-is-inside-uiscrollview
+        bodyTextView.isScrollEnabled = false
+        bodyTextView.isScrollEnabled = true
     }
     
 }

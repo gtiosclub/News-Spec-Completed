@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "nda-surfacepro-still.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "SDAM.jpg",
       "scale" : "2x"
     },
     {

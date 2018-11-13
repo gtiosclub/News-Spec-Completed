@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "iphone-x-home-screen.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Amazon.jpg",
       "scale" : "2x"
     },
     {
