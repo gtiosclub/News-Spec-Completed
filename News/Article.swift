@@ -266,6 +266,8 @@ struct Article {
                 In an act of mercy hailed by advocates for peace across the world, superhero Elon Musk buys popular teen magazine Fornite. Musk has vowed to delete the menace and free millions of enslaved children from the terror that is Fortite.
 
                 In a quote attributed to the world leader, Musk held a sick child while vowing never to let such tragedy happen again "I had to save these kids from eternal virginity".
+
+                https://twitter.com/elonmusk/status/1053390822991790083
                 """),
         
     ]
