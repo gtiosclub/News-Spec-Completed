@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jYo-zm-m0G">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jYo-zm-m0G">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -30,23 +30,23 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="interstellar" translatesAutoresizingMaskIntoConstraints="NO" id="fOw-LM-gRh">
-                                                    <rect key="frame" x="20" y="10" width="79.666666666666671" height="79.666666666666671"/>
+                                                    <rect key="frame" x="20" y="10.333333333333336" width="80" height="80"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="80" id="ASU-a1-3Cg"/>
                                                         <constraint firstAttribute="width" secondItem="fOw-LM-gRh" secondAttribute="height" multiplier="1:1" id="jAn-0L-wwc"/>
                                                     </constraints>
                                                 </imageView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lne-pu-ojW">
-                                                    <rect key="frame" x="109.66666666666667" y="9" width="212.33333333333331" height="82"/>
+                                                    <rect key="frame" x="110" y="10.333333333333336" width="212" height="82"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Possible Interstellar Object Creates Excitement Among Astronomers" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DxC-1z-T6b">
-                                                            <rect key="frame" x="0.0" y="0.0" width="212.33333333333334" height="61"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="212" height="61"/>
                                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="October 31" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYZ-9v-Hlr">
-                                                            <rect key="frame" x="0.0" y="65" width="212.33333333333334" height="17"/>
+                                                            <rect key="frame" x="0.0" y="65" width="212" height="17"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -66,9 +66,10 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="Lne-pu-ojW" secondAttribute="trailing" constant="20" id="5Kv-31-cEd"/>
+                                                <constraint firstItem="Lne-pu-ojW" firstAttribute="top" secondItem="yLO-i2-9vh" secondAttribute="top" constant="10" id="DLO-R6-L9W"/>
                                                 <constraint firstAttribute="bottom" secondItem="fOw-LM-gRh" secondAttribute="bottom" constant="10" id="DcE-pf-HYG"/>
                                                 <constraint firstItem="fOw-LM-gRh" firstAttribute="top" secondItem="yLO-i2-9vh" secondAttribute="top" constant="10" id="Fv9-g0-d03"/>
-                                                <constraint firstItem="Lne-pu-ojW" firstAttribute="centerY" secondItem="yLO-i2-9vh" secondAttribute="centerY" id="LzJ-WH-lcL"/>
+                                                <constraint firstAttribute="bottom" secondItem="Lne-pu-ojW" secondAttribute="bottom" constant="10" id="L7g-jK-fhC"/>
                                                 <constraint firstItem="Lne-pu-ojW" firstAttribute="leading" secondItem="fOw-LM-gRh" secondAttribute="trailing" constant="10" id="gxd-1i-rqw"/>
                                                 <constraint firstItem="fOw-LM-gRh" firstAttribute="leading" secondItem="yLO-i2-9vh" secondAttribute="leading" constant="20" id="rKr-4Z-w9z"/>
                                             </constraints>
@@ -96,9 +97,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="News" id="9EM-2H-pQ5"/>
-                    <connections>
-                        <segue destination="RjX-DT-FOk" kind="show" id="NUY-u3-Xk5"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -119,7 +117,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sOX-4B-DAo">
-                                <rect key="frame" x="20" y="230.66666666666663" width="335" height="223.33333333333337"/>
+                                <rect key="frame" x="20" y="231.33333333333331" width="335" height="223.33333333333331"/>
                                 <color key="backgroundColor" white="0.94999999999999996" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="interstellar" translatesAutoresizingMaskIntoConstraints="NO" id="jbz-tV-U9k">
@@ -138,7 +136,7 @@ Instead of originating from our solar system, the piece of rock that is about a 
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="October 27" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDu-sB-apf">
-                                <rect key="frame" x="20" y="195.66666666666666" width="71" height="15.666666666666657"/>
+                                <rect key="frame" x="20" y="195.66666666666666" width="335" height="15.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -151,6 +149,7 @@ Instead of originating from our solar system, the piece of rock that is about a 
                             <constraint firstItem="jbz-tV-U9k" firstAttribute="top" secondItem="gDu-sB-apf" secondAttribute="bottom" constant="20" id="472-r8-vsK"/>
                             <constraint firstItem="DCM-m9-qmg" firstAttribute="trailing" secondItem="sqX-hi-16P" secondAttribute="trailing" constant="20" id="5BP-Dr-gm7"/>
                             <constraint firstItem="DCM-m9-qmg" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="r8M-vh-qO6" secondAttribute="bottom" constant="10" id="5ZI-Hm-kXe"/>
+                            <constraint firstItem="DCM-m9-qmg" firstAttribute="trailing" secondItem="gDu-sB-apf" secondAttribute="trailing" constant="20" id="7h3-02-KwR"/>
                             <constraint firstItem="sOX-4B-DAo" firstAttribute="leading" secondItem="jbz-tV-U9k" secondAttribute="leading" id="NaY-l1-JuC"/>
                             <constraint firstItem="r8M-vh-qO6" firstAttribute="top" secondItem="jbz-tV-U9k" secondAttribute="bottom" constant="20" id="Oa8-I2-hIP"/>
                             <constraint firstItem="sqX-hi-16P" firstAttribute="leading" secondItem="DCM-m9-qmg" secondAttribute="leading" constant="20" id="PI9-8e-chX"/>
@@ -166,6 +165,7 @@ Instead of originating from our solar system, the piece of rock that is about a 
                         <viewLayoutGuide key="safeArea" id="DCM-m9-qmg"/>
                     </view>
                     <navigationItem key="navigationItem" title="Article" largeTitleDisplayMode="never" id="ast-hm-wM5"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="bodyLabel" destination="r8M-vh-qO6" id="zYo-vQ-lnn"/>
                         <outlet property="dateLabel" destination="gDu-sB-apf" id="KEH-oc-249"/>
@@ -175,7 +175,7 @@ Instead of originating from our solar system, the piece of rock that is about a 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7nt-bs-geS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1223" y="136"/>
+            <point key="canvasLocation" x="1255" y="132"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Fjr-Rh-Qi1">
